@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from 'shared';
 import Router from 'next/router';
 
-const NextPage = () => {
+const Index = () => {
 
     const handleClick = () => {
         Router.push("/next-page")
@@ -32,4 +32,4 @@ const NextPage = () => {
     )
 }
 
-export default NextPage;
+export default Index;
